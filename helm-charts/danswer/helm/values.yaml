@@ -396,11 +396,11 @@ configMap:
   GEN_AI_MODEL_VERSION: "llama3"
   FAST_GEN_AI_MODEL_VERSION: ""
   # GEN_AI_API_KEY: ""
-  GEN_AI_API_ENDPOINT: "http://192.168.228.2:31330" #ollama exposed here  
+  GEN_AI_API_ENDPOINT: ""
   GEN_AI_API_VERSION: ""
   GEN_AI_LLM_PROVIDER_TYPE: ""
   GEN_AI_MAX_TOKENS: ""
-  QA_TIMEOUT: "120" #increased from 60 
+  QA_TIMEOUT: "120"
   MAX_CHUNKS_FED_TO_CHAT: ""
   DISABLE_LLM_CHUNK_FILTER: ""
   DISABLE_LLM_CHOOSE_SEARCH: ""
@@ -412,7 +412,7 @@ configMap:
   MULTILINGUAL_QUERY_EXPANSION: ""
   LANGUAGE_HINT: ""
   LANGUAGE_CHAT_NAMING_HINT: ""
-  QA_PROMPT_OVERRIDE: "weak" #if the model doesn't work properly 
+  QA_PROMPT_OVERRIDE: "weak"
   # Internet Search Tool
   BING_API_KEY: ""
   # Don't change the NLP models unless you know what you're doing
